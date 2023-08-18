@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import Acordeon from "./views/Acordeon";
+import Carrusel from "./views/Carrusel";
+import CarruselDeTexto from "./views/CarruselDeTexto";
+import Formulario from "./views/Formulario";
+import Navbar from "./views/Navbar";
+import PieDePagina from "./views/PieDePagina";
+import PruebaSecciones from "./views/PruebaSecciones";
+import TextoCentrado from "./views/TextoCentrado";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    
+      {/*<PruebaSecciones/>*/}
+      <Navbar/>
+      <Carrusel/>
+      <TextoCentrado/>
+      <CarruselDeTexto/>
+      <Acordeon/>
+      <Formulario/>
+      <PieDePagina/>
+      
+    </>
+    
+    );
 }
 
 export default App;

@@ -1,0 +1,17 @@
+.contenedor-section{
+    display: flex;
+    background-color: white
+}
+
+.formulario{
+    margin: 5%;
+}
+
+.imagen{
+    
+    display: flex;
+    background-image: url('../componentes/correo.jpg');
+    background-size: cover;
+    width: 40%;
+    margin: 5%;
+}

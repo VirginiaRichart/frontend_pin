@@ -1,0 +1,10 @@
+.contenedor-Base-acordeon{
+    display: flex;
+    background-image: url('../componentes/mundo.jpg');
+    background-size: cover;
+}
+
+.accordion{
+    max-width: 50%;
+    margin: 10%;
+}

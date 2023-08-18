@@ -1,0 +1,311 @@
+/*
+.seccion {
+    display: flex;
+    flex-direction: column;
+    /* Estilos generales de la sección */
+
+/*    position: relative;
+    /* Establece el posicionamiento relativo */
+/*    background-color: rgb(246, 248, 248);
+    height: 400px;
+}
+
+.subseccion {
+    /*padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    /* Estilos generales de las subsecciones */
+  /*  display: flex;
+
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #f7f7f6;
+    position: absolute;
+    /* Establece el posicionamiento absoluto */
+  /*  width: 97%;
+    /* Ajusta el ancho según tus necesidades */
+ /*   background-color: rgba(221, 104, 104, 0.8);
+    /* Fondo semi-transparente */
+/*}
+
+.subseccion-azul {
+    /*background-color: #3498db;
+    color: #fff;
+    /* Estilos de la subsección azul */
+   /* display: flex;
+
+    background-image: linear-gradient(to bottom, #5cbbf1, #ecf5f5);
+    /* Cambia los colores según tu preferencia */
+   /* color: #fff;
+  /*  z-index: 1;
+    /* Coloca esta subsección detrás de la otra */
+    /*height: 350px;*/
+ /*   height: 100%;
+  /*  ;
+/*}
+
+.subseccion-verde {
+
+    background-image: linear-gradient(to bottom, #d6d2e4, #aeb2ee);
+    /* Cambia los colores según tu preferencia */
+   /* color: #fff;
+    padding: 20px;
+    width: 100%;
+    /* Cambia el ancho a 100% para que ocupe todo el ancho disponible */
+   /* max-height: none;
+    /* Elimina la altura máxima */
+  /*  height: auto;
+    /* Cambia la altura a auto para que se ajuste al contenido */
+
+  /*  position: relative;
+    top: 40px;
+    z-index: 2;
+
+    /* Ajustes de margen y posición */
+    /*margin: 10px auto;*/
+
+    /* Ajustes de margen y posición */
+   /* margin: 10px 10px 10px 50px;
+    /* 10px en la parte superior, derecha, inferior y 0 en la izquierda */
+
+    /* Margen superior e inferior de 10px, y centrar horizontalmente */
+  /*  left: 0;
+    /* Elimina la propiedad left */
+
+
+  /*  width: 1050px;
+ /*   height: 300px;
+
+    /* Añadir media query para ajustes en pantallas pequeñas */
+ /*   @media (max-width: 768px) {
+        padding: 10px;
+        /* Ajustes de padding en pantallas pequeñas */
+ /*   }
+
+/*}
+
+.subseccion-roja {
+    display: flex;
+    background-color: #e74c3c;
+    color: #131212;
+    top: 40px;
+    /* Ajusta esta propiedad para superponer la subsección */
+  /*  z-index: 2;
+    /* Coloca esta subsección arriba de la otra */
+    /* Estilos de la subsección roja */
+
+
+ /*   width: 10%;
+    height: 10%;
+
+    margin: 0px;
+    padding: 150px;
+
+    left: 1200px;
+
+    background-image: url('../componentes/amoCba.jpg');
+    background-size: cover;
+    /* Ajusta la imagen para cubrir todo el fondo */
+  /*  background-position: center;
+    /* Centra la imagen en el fondo */
+ /*   background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+
+/*}
+
+.imagenRoja {
+    display: flex;
+    width: 50%;
+    height: auto;
+
+    /*position: absolute;*/
+/*}*//*
+
+.acordeon {
+    display: flex;
+    max-height: 300px;
+    /* Ajusta la altura máxima según tu diseño */
+    /*overflow-y: auto;
+    /* Agrega desplazamiento vertical si el contenido excede la altura máxima */
+    /* Estilos del acordeón */
+/*}*/
+
+
+/**********************************NAVBAR***************************************/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #353fce;
+    background-image: linear-gradient(to bottom, #353fce, #d6d2e4);
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.logo a {
+    display: flex;
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    display: flex;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    display: flex;
+    text-decoration: underline;
+    color: #dae908;
+    font-size: 1rem;
+}
+
+.logo img{
+    max-width: 50%;
+}
+
+
+
+
+/*****************************CARUSEL*******************************/
+/*.seccion-Carrusel{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    max-width: 100%;
+    height: 500px;
+    background-color: orange
+    
+}*/
+
+
+.carousel-inner {
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+/* Estilos para hacer las imágenes más pequeñas en el carrusel */
+.carousel-inner img {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 100%;
+    /* Ajusta el ancho máximo de la imagen al 100% */
+    height: auto;
+    /* Ajusta la altura automáticamente para mantener la proporción */
+    
+    margin: 10px;
+    
+    
+}
+
+.carousel-caption h5 {
+    font-size: 2rem;
+    color: black;
+    /*margin-left: 500px;*/
+}
+
+.carousel-caption p {
+    font-size: 1.5rem;
+    color: black;
+    /*margin-left: 500px;*/
+}
+
+/******************************TEXTO CENTRADO*********************************/
+
+.seccion-texto-centrado{
+    background-color: #b9cdd8;
+    padding: 10%;
+    /*max-width: 100%;*/
+}
+
+/********************CARRUSEL DE TEXTO***************************/
+.contebedor-base{
+    display: flex;
+    width: auto;
+
+    background-color: #498576;
+}
+.contenedor-padre {
+    display: flex;
+    position: relative; /* Establece el contenedor como referencia para el posicionamiento absoluto */
+    width: 700px; /* Ajusta el ancho según tus necesidades */
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    border: 1px solid #000; /* Solo para visualización */
+    margin: 2%;
+
+    background-image: url('../componentes/puente.png');
+    background-size: cover;
+    
+}
+
+.div-superpuesto {
+    position: absolute; /* Posición absoluta para superponer los div */
+    display: block;
+    width: 400px; /* Ajusta el ancho según tus necesidades */
+    height: 200px; /* Ajusta la altura según tus necesidades */
+    background-color: rgba(0, 0, 0, 0.5); /* Ejemplo de fondo semi-transparente */
+    color: #fff;
+
+
+
+}
+.div1 {
+    bottom: 0; /* Posición en la parte inferior */
+    right: 0; /* Posición en la parte derecha */
+}
+
+.carousel-item h3{
+    text-align: center;
+}
+
+.carousel-item p{
+    text-align: center;
+}
+
+/**********************************ACORDION************************************/
+.contenedor-Base-acordeon{
+    display: flex;
+    background-image: url('../componentes/mundo.jpg');
+    background-size: cover;
+}
+
+.accordion{
+    max-width: 50%;
+    margin: 10%;
+}
+
+/***********************************PIE DE PAGINA******************************/
+.contenedor-padre-pieDePagina{
+    background-color: black;
+}
+
+.contenedor-padre-pieDePagina h4{
+    color: white;
+}
+
+.contenedor-padre-pieDePagina p{
+    color: white;
+}
+
+.contenedor-padre-pieDePagina a{
+    color: white;
+}

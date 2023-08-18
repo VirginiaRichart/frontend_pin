@@ -1,0 +1,42 @@
+.contebedor-base{
+    display: flex;
+    width: auto;
+
+    background-color: #498576;
+}
+.contenedor-padre {
+    display: flex;
+    position: relative; /* Establece el contenedor como referencia para el posicionamiento absoluto */
+    width: 700px; /* Ajusta el ancho según tus necesidades */
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    border: 1px solid #000; /* Solo para visualización */
+    margin: 2%;
+
+    background-image: url('../componentes/puente.png');
+    background-size: cover;
+    
+}
+
+.div-superpuesto {
+    position: absolute; /* Posición absoluta para superponer los div */
+    display: block;
+    width: 400px; /* Ajusta el ancho según tus necesidades */
+    height: 200px; /* Ajusta la altura según tus necesidades */
+    background-color: rgba(0, 0, 0, 0.5); /* Ejemplo de fondo semi-transparente */
+    color: #fff;
+
+
+
+}
+.div1 {
+    bottom: 0; /* Posición en la parte inferior */
+    right: 0; /* Posición en la parte derecha */
+}
+
+.carousel-item h3{
+    text-align: center;
+}
+
+.carousel-item p{
+    text-align: center;
+}
