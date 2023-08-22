@@ -15,7 +15,7 @@ function Form(props) {
                             id="correo"
                             aria-describedby="emailHelp"
                             onChange={props.handleChange}
-                            value={props.newUser.email}
+                            value={props.newUser.correo}
                         />
                         <div id="emailHelp" className="form-text">
                             Nunca compartiremos su correo electrónico con nadie.
@@ -32,7 +32,7 @@ function Form(props) {
                             id="nombre"
                             aria-describedby="emailHelp"
                             onChange={props.handleChange}
-                            value={props.newUser.username}
+                            value={props.newUser.nombre}
                         />
 
                     </div>
@@ -47,22 +47,22 @@ function Form(props) {
                             id="apellido"
                             aria-describedby="emailHelp"
                             onChange={props.handleChange}
-                            value={props.newUser.username}
+                            value={props.newUser.apellido}
                         />
 
                     </div>
 
                     <div className="mb-3">
-                        <label htmlFor="telefono" className="form-label">
+                        <label htmlFor="mensajeCorreo" className="form-label">
                             Mensaje
                         </label>
                         <input
                             type="text"
                             className="form-control"
-                            id="telefono"
+                            id="mensajeCorreo"
                             aria-describedby="emailHelp"
                             onChange={props.handleChange}
-                            value={props.newUser.username}
+                            value={props.newUser.mensajeCorreo}
                         />
 
                     </div>

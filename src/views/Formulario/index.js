@@ -4,13 +4,13 @@ import axios from "axios";
 
 function Formulario(){
 
-    const [newUser,setNewUser] = useState({nombre: "", apellido: "", correo: "", telefono:"",  notification: false})
+    const [newUser,setNewUser] = useState({nombre: "", apellido: "", correo: "", mensajeCorreo:"",  notification: false})
 
     const [success, setSuccess] = useState(false)
 
     const [error, setError] = useState(false)
 
-    const disableSubmit = !newUser.nombre || !newUser.apellido || !newUser.correo || !newUser.telefono
+    const disableSubmit = !newUser.nombre || !newUser.apellido || !newUser.correo || !newUser.mensajeCorreo
 
     const handleChange = (event)=>{
         const property = event.target.id
@@ -19,6 +19,7 @@ function Formulario(){
         if(success) setSuccess(false)
     }
 
+    
     const handleCheck = (event)=>{
         setNewUser({...newUser, notification: event.target.checked})
     }
@@ -26,14 +27,14 @@ function Formulario(){
     
     const handleSubmit = (event)=>{
         event.preventDefault()
-
+        console.log(newUser)
         axios({
             method: "POST",
             url: "http://localhost/pin/public/index.php/api/registrar-cliente"
         }).then(
             response => {
                 setSuccess(true)
-                setNewUser({nombre: "", apellido: "", correo: "", telefono:"", notification: false})
+                setNewUser({nombre: "", apellido: "", correo: "", mensajeCorreo:"", notification: false})
             }
         ).catch(
             error=>{

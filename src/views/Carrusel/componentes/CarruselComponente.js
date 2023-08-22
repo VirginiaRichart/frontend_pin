@@ -14,25 +14,25 @@ function CarruselComponente(props) {
                     </div>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src="./cataratas.jpg" className="d-block w-100" alt="La falda" />
+                            <img src="./damian1.jpeg" className="d-block w-100" alt="La falda" />
                             <div className="carousel-caption d-none d-md-block">
-                                <h5>CASCADAS QUE ENAMORAN</h5>
-                                <p>Déjate cautivar por la melodía relajante del agua que cae en armonía con la naturaleza circundante.</p>
+                                {/*<h5>CASCADAS QUE ENAMORAN</h5>
+                                <p>Déjate cautivar por la melodía relajante del agua que cae en armonía con la naturaleza circundante.</p>*/}
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img src="./patagonia.png" className="d-block w-100" alt="Sierras" />
+                            <img src="./damian1-1.jpg" className="d-block w-100" alt="Sierras" />
                             <div className="carousel-caption d-none d-md-block">
-                                <h5>MONTAÑAS MAJESTUOSAS</h5>
-                                <p>"Adéntrate en el reino de las montañas, donde la grandeza de la naturaleza alcanza nuevas alturas</p>
+                                {/*<h5>MONTAÑAS MAJESTUOSAS</h5>
+                                <p>"Adéntrate en el reino de las montañas, donde la grandeza de la naturaleza alcanza nuevas alturas</p>*/}
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img src="./norte.png" className="d-block w-100" alt="mendoza" />
+                            <img src="./damian3.jpeg" className="d-block w-100" alt="mendoza" />
                             <div className="carousel-caption d-none d-md-block">
-                                <h5>TIERRAS DEL BUEN VINO</h5>
+                                {/*<h5>TIERRAS DEL BUEN VINO</h5>
                                 <p>La vid, un enigma viviente que nos brinda la magia del vino. 
-                                    </p>
+                            </p>*/}
                             </div>
                         </div>
                     </div>

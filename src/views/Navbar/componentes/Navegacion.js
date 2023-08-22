@@ -8,7 +8,7 @@ function Navegacion(props) {
                 <div className="logo">
 
                     <a href="#">
-                        <img src="./logo3.jpg" alt="Logo de Mi Empresa"/>
+                        <img src="./logoDamiansinfondo.png" alt="Logo de Mi Empresa"/>
                     </a>
                 </div>
                 <ul className="nav-links">

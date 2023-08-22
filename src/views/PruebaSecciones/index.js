@@ -1,6 +1,7 @@
 import PruebaAcordeon from "./componentes/PruebaAcordeon";
 import PruebaCarrusel from "./componentes/PruebaCarrusel";
 import PruebaCarruselDeTexto from "./componentes/PruebaCarruselDeTexto";
+import PruebaDamian from "./componentes/PruebaDamian";
 import PruebaFormulario from "./componentes/PruebaFormulario";
 import PruebaNavbar from "./componentes/PruebaNavbar";
 import PruebaPieDePagina from "./componentes/PruebaPieDePagina";
@@ -17,6 +18,7 @@ function PruebaSecciones() {
             <PruebaAcordeon/>
             <PruebaFormulario/>
             <PruebaPieDePagina/>
+            <PruebaDamian/>
             
 
 
