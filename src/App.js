@@ -5,7 +5,6 @@ import Formulario from "./views/Formulario";
 import Navbar from "./views/Navbar";
 import PieDePagina from "./views/PieDePagina";
 import PruebaSecciones from "./views/PruebaSecciones";
-import PruebaDamian from "./views/PruebaSecciones/componentes/PruebaDamian";
 import TextoCentrado from "./views/TextoCentrado";
 
 

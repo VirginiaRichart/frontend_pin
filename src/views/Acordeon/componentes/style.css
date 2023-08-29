@@ -1,6 +1,7 @@
 .contenedor-Base-acordeon{
     display: flex;
-    background-image: url('../componentes/mundo.jpg');
+    /*background-image: url('../componentes/corrientes.jpg');*/
+    background-image: url('./corrientes.jpg');
     background-size: cover;
 }
 

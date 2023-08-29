@@ -27,11 +27,11 @@ function Formulario(){
     
     const handleSubmit = (event)=>{
         event.preventDefault()
-        console.log(newUser)
-        axios({
-            method: "POST",
-            url: "http://localhost/pin/public/index.php/api/registrar-cliente"
-        }).then(
+        axios
+            /*method: "POST",
+        url: "http://localhost/backend_pin/public/index.php/api/registrar-cliente"*/
+        .post("http://localhost/backend_pin/public/index.php/api/registrar-cliente",newUser)
+        .then(
             response => {
                 setSuccess(true)
                 setNewUser({nombre: "", apellido: "", correo: "", mensajeCorreo:"", notification: false})

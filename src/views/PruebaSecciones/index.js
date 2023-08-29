@@ -18,7 +18,7 @@ function PruebaSecciones() {
             <PruebaAcordeon/>
             <PruebaFormulario/>
             <PruebaPieDePagina/>
-            <PruebaDamian/>
+            
             
 
 
