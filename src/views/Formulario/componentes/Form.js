@@ -82,7 +82,7 @@ function Form(props) {
                         type="submit"
                         className="btn btn-primary"
                         disabled={props.disableSubmit}>
-                        Submit
+                        Enviar
                     </button>
                 </form>
                 {props.success &&
@@ -94,7 +94,7 @@ function Form(props) {
                         ¡Tuvimos un problema al procesar tu solicitud!
                     </div>}
 
-                <div className='imagen'>
+                <div className="img-fluid imagen">
                     
                 </div>
             </section>

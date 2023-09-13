@@ -11,7 +11,7 @@ function PieDePaginaComponente(props) {
                         <div className="row">
                             <div className="col-md-4">
                                 <h4>Contacto</h4>
-                                <p>Correo: contacto@miempresa.com</p>
+                                <p>Correo: contacto@singer.com</p>
                                 <p>Teléfono: +123456789</p>
                             </div>
                             <div className="col-md-4">
@@ -29,7 +29,7 @@ function PieDePaginaComponente(props) {
                             </div>
                         </div>
                         <hr />
-                        <p>&copy; 2023 Mi Empresa. Todos los derechos reservados.</p>
+                        <p>&copy; 2023 Singer. Todos los derechos reservados.</p>
                     </div>
                 </footer>
             </div>
