@@ -30,7 +30,7 @@ function Formulario(){
         axios
             /*method: "POST",
         url: "http://localhost/backend_pin/public/index.php/api/registrar-cliente"*/
-        .post("http://localhost/backend_pin/public/index.php/api/registrar-cliente",newUser)
+        .post("https://backendpin-production.up.railway.app/api/registrar-cliente",newUser)
         .then(
             response => {
                 setSuccess(true)
