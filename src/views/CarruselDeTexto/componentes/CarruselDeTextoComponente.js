@@ -5,7 +5,7 @@ function CarruselDeTextoComponente(props) {
         <>
             
 
-            <div className='contebedor-base'>
+            <div className='contebedor-base' id="destinos">
 
                 <div className="contenedor-padre">
 

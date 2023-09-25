@@ -3,7 +3,7 @@ import './style.css'
 function AcordeonComponente(props) {
     return (
         <>
-            <div className='contenedor-Base-acordeon'>
+            <div className='contenedor-Base-acordeon' id="tours">
                 <div className="accordion" id="accordionExample">
                     <div className="accordion-item">
                         <h2 className="accordion-header">

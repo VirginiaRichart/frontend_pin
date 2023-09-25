@@ -3,7 +3,7 @@ import './style.css'
 function TextoCentradoComponente(props) {
     return (
         <>
-            <section className="seccion-texto-centrado">
+            <section className="seccion-texto-centrado" id="nosotros">
                 <div className="container">
                     <div className="row">
                         <div className="col text-center">

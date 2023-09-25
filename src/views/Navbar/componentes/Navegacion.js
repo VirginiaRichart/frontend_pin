@@ -13,9 +13,10 @@ function Navegacion(props) {
                 </div>
                 <ul className="nav-links">
                     <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Destinos</a></li>
-                    <li><a href="#">Tours</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#destinos">Destinos</a></li>
+                    <li><a href="#tours">Tours</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
 

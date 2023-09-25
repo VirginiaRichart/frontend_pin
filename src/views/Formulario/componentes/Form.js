@@ -3,7 +3,7 @@ import './style.css'
 function Form(props) {
     return (
         <>
-            <section className='contenedor-section'>
+            <section className='contenedor-section' id="contacto">
                 <form onSubmit={props.handleSubmit} className='formulario'>
                     <div className="mb-3">
                         <label htmlFor="correo" className="form-label">
